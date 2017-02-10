@@ -11,6 +11,7 @@ void show(int *arr, int count)
 	cout << endl;
 }
 
+
 //±ä³É¶Ñ
 void HeapAdjust(int arr[], int mid, int len)
 {
