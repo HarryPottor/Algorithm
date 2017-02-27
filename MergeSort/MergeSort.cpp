@@ -51,7 +51,7 @@ void Merge(int source[], int temp[], int start, int mid, int end)
 		temp[k++] = source[j++];
 	}
 
-	for (int i = 0; i < end + 1; i++)
+	for (int i = start; i < end + 1; i++)
 	{
 		source[i] = temp[i];
 	}
